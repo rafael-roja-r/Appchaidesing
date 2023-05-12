@@ -1,0 +1,31 @@
+//color
+$color-bg:#141e36; //color background
+$color-bc:#22325b: //color background container
+$color-ip:#2c3b64; //color input
+$color-cd:#374a7a; //color card
+$color-hv:#3e6cc5; //color hover
+$color-tl:#f5f5ea; //color title
+$color-st:#cad5f5; //color subtitle
+$color-ds:#b8c8e8; //color descripción
+$color-sp:#6e80a9; //color span
+//text
+$text-tl: 2rem; //text title
+$text-st: 1.5rem; //text subtitle
+$text-ds: 1rem; //text descripción
+$text-sp: .8rem; //text span
+$text-sf: sans-serif;  //style and font family
+//radio
+$border-r: 20px;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body{
+  background: $color-bg;
+  width: 100%;
+  height: 100%;
+}
