@@ -17,7 +17,7 @@ const Login =()=>{
                                            
                     </div>
                     <button type="submit">Login in</button>
-                    <span>hola soy error</span>
+                    <span></span>
                     <p>I do not have a user in the app <a href="">Register</a></p>
                 </form>
             </div>

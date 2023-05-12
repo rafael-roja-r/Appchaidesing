@@ -25,7 +25,7 @@ const Register =()=>{
                         </label>                     
                     </div>
                     <button type="submit">Register</button>
-                    <span>hola soy error</span>
+                    <span></span>
                 </form>
             </div>
         </div>
