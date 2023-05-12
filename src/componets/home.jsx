@@ -4,7 +4,7 @@ import React from "react";
         <div className="home">
             <div className="home__container">
                 <div className="home__container__left">
-                
+                <h2>holo</h2>
                 </div>
                 <div className="home__container__right"></div>
 
