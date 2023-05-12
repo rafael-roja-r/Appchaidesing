@@ -26,6 +26,7 @@ const Register =()=>{
                     </div>
                     <button type="submit">Register</button>
                     <span></span>
+                    <p>I already have an account <a >Login</a></p>
                 </form>
             </div>
         </div>

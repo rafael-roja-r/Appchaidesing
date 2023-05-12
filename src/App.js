@@ -5,9 +5,9 @@ import Register from './componets/Register';
 
 function App() {
   return (
-    <div className="App">
-      <Login/>
-      <Register/>
+    <div className="App">      
+      <Home/>
+      
       
     </div>
   );
