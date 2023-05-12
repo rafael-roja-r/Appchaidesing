@@ -3,6 +3,10 @@ import hom from "../img/home.svg";
 import mss from "../img/messages.svg";
 import usr from "../img/user.svg";
 import est from "../img/estado.svg";
+import Hm from "../pages/Home";
+import Ms from "../pages/Messages";
+import Us from "../pages/User";
+import Ee from "../pages/Estado";
 
 
  const Home = ()=>{
@@ -23,24 +27,28 @@ import est from "../img/estado.svg";
             {open === "home" && (
               <div className="inicontainer">
                 <h3>Home</h3>
+                <Hm/>
               </div>
             )}
 
             {open === "message" && (
               <div className="inicontainer">
                 <h3>Message</h3>
+                <Ms/>
               </div>
             )}
 
             {open === "estado" && (
               <div className="inicontainer">
                 <h3>Estado</h3>
+                <Ee/>
               </div>
             )}
 
             {open === "user" && (
               <div className="inicontainer">
                 <h3>User</h3>
+                <Us/>
               </div>
             )}
           </div>
