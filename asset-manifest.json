@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/chat/static/css/main.eb61c7f1.css",
-    "main.js": "/chat/static/js/main.90f9b627.js",
-    "static/media/foto.svg": "/chat/static/media/foto.882c00377a448d9bd01de0e3a2724fb8.svg",
-    "static/media/user.svg": "/chat/static/media/user.557f8fdd06fc16394812130dc48a9eb1.svg",
-    "static/media/home.svg": "/chat/static/media/home.081eb93705c2456c694a3530aead746a.svg",
+    "main.css": "/chat/static/css/main.ac73185a.css",
+    "main.js": "/chat/static/js/main.8888fb46.js",
+    "static/media/stt.svg": "/chat/static/media/stt.1702a7775431f97f931cfc702fe7d199.svg",
+    "static/media/Logo.svg": "/chat/static/media/Logo.0d57e4317d77a9a5167f23aac806d1dc.svg",
+    "static/media/ho.svg": "/chat/static/media/ho.6955ea7aea11336cb92d657eb0e36883.svg",
+    "static/media/Wrh.svg": "/chat/static/media/Wrh.5d47ddf249185cb3f839402a6a54dde6.svg",
+    "static/media/group.svg": "/chat/static/media/group.b4559f457110a621b8b65456978cc2c0.svg",
     "index.html": "/chat/index.html",
-    "static/media/estado.svg": "/chat/static/media/estado.cbcfb0dbaaf17b3a4418bcfa2b4a578e.svg",
-    "static/media/corazon.svg": "/chat/static/media/corazon.53b3b11914f16356db1d1d115d3012bf.svg",
-    "static/media/messages.svg": "/chat/static/media/messages.522b76279437932c6c2b0b7a41837d7b.svg",
-    "static/media/buscar.svg": "/chat/static/media/buscar.82f5c2d22f8731535cd5cad71817c4d5.svg",
-    "static/media/Termino.svg": "/chat/static/media/Termino.b17c75788a01b53ca8be8796a1baa524.svg",
-    "static/media/Marcar.svg": "/chat/static/media/Marcar.01a00089877a078597dc24df2d91dd82.svg",
+    "static/media/help.svg": "/chat/static/media/help.8acf0abcd03ea59cfd4b2c9bb0eab658.svg",
     "static/media/bxs-user.svg": "/chat/static/media/bxs-user.749bb1826c0746b5c7b2d0108106fb4b.svg",
-    "main.eb61c7f1.css.map": "/chat/static/css/main.eb61c7f1.css.map",
-    "main.90f9b627.js.map": "/chat/static/js/main.90f9b627.js.map"
+    "main.ac73185a.css.map": "/chat/static/css/main.ac73185a.css.map",
+    "main.8888fb46.js.map": "/chat/static/js/main.8888fb46.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb61c7f1.css",
-    "static/js/main.90f9b627.js"
+    "static/css/main.ac73185a.css",
+    "static/js/main.8888fb46.js"
   ]
 }
