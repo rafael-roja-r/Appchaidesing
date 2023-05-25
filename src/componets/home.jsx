@@ -5,16 +5,23 @@ import he from "../img/icons-v/help.svg";
 import ho from "../img/icons-v/ho.svg";
 import st from "../img/icons-v/stt.svg";
 import wh from "../img/icons-v/Wrh.svg";
-
+//nav-vertical
 import Hm from "../pages/Home";
-import Ms from "../pages/Messages";
-import Us from "../pages/User";
-import Ee from "../pages/Estado";
+import Ms from "../pages/Team";
+import Us from "../pages/Help";
+import Ee from "../pages/Warehouse";
+//nav-horizontal
+import De from "../componets/Desing";
+import Re from "../componets/Report";
+import Ma from "../componets/Materials";
+import Mh from "../componets/Machine";
+import Cn from "../componets/Construct";
+
 
 
 const Home = () => {
 
-  const [open, Start] = useState('home');
+  const [open, Start] = useState('null');
 
   const Show = (option) => {
     Start(option);
@@ -30,7 +37,7 @@ const Home = () => {
       </div>
 
       <div className="home__nav__v">
-          <button onClick={() => Show("home")}>
+          <button  onClick={() => Show("home")}>
             {" "}
             <img src={ho} alt="" />{" "}
           </button>
@@ -58,14 +65,18 @@ const Home = () => {
       
       <div className="home__container">
         <div className="home__nav_h">
+          <button onClick={() => Show("desing")}>Desing</button>
+          <button onClick={() => Show("report")}>Report</button>
+          <button onClick={() => Show("materials")}>Materials</button>
+          <button onClick={() => Show("machine")}>Machine</button>
+          <button onClick={() => Show("construct")}>Construct</button>
 
         </div>
 
 
-        <div className="home__container__left">
+        <div className="home__container__right">
           {open === "home" && (
             <div className="inicontainer">
-              <h3>Home</h3>
               <Hm />
             </div>
           )}
@@ -94,6 +105,40 @@ const Home = () => {
           {open === "setting" && (
             <div className="inicontainer">
               <h3>Setting</h3>
+              <Us />
+            </div>
+          )}
+
+          {open === "desing" && (
+            <div className="inicontainer">
+              <De/>
+            </div>
+          )}
+
+          {open === "report" && (
+            <div className="inicontainer">
+              <Re/>
+              <Us />
+            </div>
+          )}
+
+          {open === "materials" && (
+            <div className="inicontainer">
+             <Ma/>
+              <Us />
+            </div>
+          )}
+
+          {open === "machine" && (
+            <div className="inicontainer">
+              <Mh/>
+              <Us />
+            </div>
+          )}
+
+          {open === "construct" && (
+            <div className="inicontainer">
+              <Cn/>
               <Us />
             </div>
           )}

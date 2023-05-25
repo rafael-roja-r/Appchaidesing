@@ -1,6 +1,6 @@
 //color
 $color-bg:#E3F1F1; //color background
-$color-bc:#22325b; //color background container
+$color-bc:#B4CFCC; //color background container
 $color-bb:#CA9C34; //color button background
 $color-cd:#374a7a; //color card
 $color-hv:#425C59; //color vertical
@@ -9,6 +9,7 @@ $color-st:#cad5f5; //color subtitle
 $color-ds:#b8c8e8; //color descripción
 $color-sp:#6e80a9; //color span
 $color-lg:#3D5653; //color span
+$color-ip:#85a3a0;
 //text
 $text-tl: 2rem; //text title
 $text-st: 1rem; //text subtitle
@@ -22,14 +23,24 @@ $border-r: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  user-select: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+$fonts_ops:'Open Sans', sans-serif;
+$fonts_ps:'Poppins', sans-serif;
+
 .home{
   background: $color-bg;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
+
+  h2{
+    font-weight: 300;
+    color: $color-lg;
+    font-family: $fonts_ops;
+  }
   
   .home__nav{
     background: $color-hv;
@@ -56,7 +67,7 @@ $border-r: 20px;
       gap: 10px;
 
       button{
-        border-left: 5px solid $color-bb;
+        border-left: 0px solid $color-bb;
         border-top: 0px solid transparent;
         border-right: 0px solid transparent;
         border-bottom: 0px solid transparent;
@@ -64,6 +75,11 @@ $border-r: 20px;
         background: transparent;
         border-radius: 0px 0px 0px 0px;
 
+      }
+
+      &::before{
+        border-left: 5px solid $color-bb;
+        background: $color-lg;
       }
       .home__buton_btn{
         width: 100px;
@@ -90,14 +106,141 @@ $border-r: 20px;
   //container home
   .home__container{
     width: 95%;
-    display: flex;
-    flex-wrap: wrap;
 
     .home__nav_h{
       width: 100%;
       height: 80px;
       background: $color-hv;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0px;
 
+      button{
+        width: 150px;
+        height: 100%;
+        margin-left: 20px;
+        background: transparent;
+        border-left: 0px solid transparent;
+        border-top: 5px solid $color-bb;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        color: $color-bb;
+        font-size: .95rem;
+        font-family: $fonts_ops;
+      }
+
+    }
+
+    .home__conten{
+      width: 98%;
+      height: 87vh;
+      margin: 20px auto;
+      background: $color-bc;
+      overflow: hidden;
+      border-radius: 10px;
+
+      .home__info_nav{
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        h2{
+          margin-left: 10px;
+        }
+        .home__input{
+          border-radius: 20px;
+          width: 600px;
+          height: 40px;
+          margin-right: 10px;
+          overflow: hidden;
+          background: $color-ip;
+          
+
+          input{
+            width: 94%;
+            margin: auto;
+            margin-left: 20px;
+            height: 100%;
+            border-radius: 25px;
+            outline: none;
+            border: none;
+            background: $color-ip;
+            color: $color-lg;
+            font-size: 1rem;
+          }
+        }
+
+      }
+
+      .home__body__container{
+        width: 100%;
+        height: 81vh;
+        overflow-y: scroll;
+
+        table{
+          font-family: $fonts_ops;
+            border-collapse:collapse;
+            width: 98%;
+            margin: auto;
+
+            th,td{
+              border: 1px solid $color-lg;
+              padding: 8px;
+              border-left: 0px;
+              border-right: 0px;
+            }
+            td{
+              align-items: center;
+              color: $color-lg;
+              font-size: .82rem;
+              animation: loop-y .6s linear ;
+
+              @keyframes loop-y {
+                0%{
+                  transform: translateY(-10px);
+                  opacity: 0%;
+                }
+                100%{
+                  transform: translateY(0px);
+                  opacity: 100%;
+                  
+                }
+                
+              }
+
+            }
+         
+
+          th{
+            padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: $color-ip;
+              color: $color-lg;
+              font-weight: 400;
+              font-size: .9rem;
+          }
+        }
+      }
+
+      
+    }
+
+    .home__container__right {
+      width: 100%;
+      height: 91vh;
+      
+      
+      .desing {
+        width: 100%;
+        height: 100%;
+        background: #dbc99f;
+        
+    
+      }
     }
   }
 

@@ -1,4 +1,4 @@
-# Chaidising app
+# Chaidesing app
 
 ### Description
 

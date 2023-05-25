@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Estructuras",
+        "description": {
+            "name1": "closet",
+            "name2": "case",
+            "name3": "frontal",
+            "name4": "zocalo",
+            "name5": "closet",
+            "name6": "canteo"
+        }
+    },
+    {
+        "name": "Cubierta",
+        "description": {
+            "name1": "forntal",
+            "name2": "izquierdo",
+            "name3": "derecho",
+            "name4": "atras",
+            "name5": "base",
+            "name6": "canteo"
+        }
+    },
+    {
+        "name": "Cajones externos",
+        "description": {
+            "name1": "forntal",
+            "name2": "izquierdo",
+            "name3": "derecho",
+            "name4": "atras",
+            "name5": "base",
+            "name6": "canteo"
+        }
+    },
+    {
+        "name": "Cajones internos",
+        "description": {
+            "name1": "forntal",
+            "name2": "izquierdo",
+            "name3": "derecho",
+            "name4": "atras",
+            "name5": "base",
+            "name6": "canteo"
+        }
+    },
+    {
+        "name": "Puertas",
+        "description": {
+            "name1": "lisas",
+            "name2": "mdf",
+            "name3": "vidrio"
+        }
+    },
+    {
+        "name": "Jalador",
+        "description": {
+            "name1": "closet",
+            "name2": "case"
+        }
+    },
+    {
+        "name": "Bisagras",
+        "description": {
+            "name1": "closet"
+        }
+    },
+    {
+        "name": "Molduras",
+        "description": {
+            "name1": "closet",
+            "name2": "case"
+        }
+    },
+    {
+        "name": "Tubos de closet",
+        "description": {
+            "name1": "closet",
+            "name2": "case"
+        }
+    }
+]
