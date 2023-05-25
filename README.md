@@ -1,6 +1,9 @@
 # Chaidesing app
 
  [https://rafael-roja-r.github.io/chat/](https://rafael-roja-r.github.io/chat/)
+ 
+ #img
+ <img scr="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" >
 
 ### Description
 
