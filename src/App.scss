@@ -1,13 +1,14 @@
 //color
-$color-bg:#141e36; //color background
+$color-bg:#E3F1F1; //color background
 $color-bc:#22325b; //color background container
-$color-ip:#2c3b64; //color input
+$color-bb:#CA9C34; //color button background
 $color-cd:#374a7a; //color card
-$color-hv:#3e6cc5; //color hover
+$color-hv:#425C59; //color vertical
 $color-tl:#f5f5ea; //color title
 $color-st:#cad5f5; //color subtitle
 $color-ds:#b8c8e8; //color descripción
 $color-sp:#6e80a9; //color span
+$color-lg:#3D5653; //color span
 //text
 $text-tl: 2rem; //text title
 $text-st: 1rem; //text subtitle
@@ -23,352 +24,81 @@ $border-r: 20px;
   box-sizing: border-box;
   user-select: none;
 }
-
-body{
+.home{
   background: $color-bg;
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  height: 100%;
-
-  h1{
-    font-size: $text-tl;
-    color: $color-tl;
-    font-family: $text-sf;
-    font-weight: 400;
-    padding: 0px 10px;
-  }
-  h2{
-    font-size: $text-st;
-    color: $color-st;
-    font-family: $text-sf;
-  }
-  h3{
-    font-size: $text-ds;
-    color: $color-ds;
-    font-family: $text-sf;
-    font-weight: 300;
-    padding: 10px 10px ;
-  }
-  h4{
-    font-size: $text-ds;
-    color: $color-ds;
-    font-family: $text-sf;
-    font-weight: 300;
-  }
-  p{
-    font-size: $text-st;
-    color: $color-sp;
-    font-family: $text-sf;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    padding: 10px;
-  }
-
-  .home__body__container__cur::-webkit-scrollbar {
-    width: 10px;     
-  }  
-  .home__body__container__cur::-webkit-scrollbar-track {
-    background-color: #f31d1d; 
-    background: transparent;
-  }
+  height: 100vh;
   
-  .home__body__container__cur::-webkit-scrollbar-thumb {
-    background-color: $color-bg; 
-    border-radius: 10px;
-  }
-  
-  .home__body__container__cur::-webkit-scrollbar-thumb:hover {
-    background: transparent;
-  }
-
-  .register{
-    width: 100%;
-    height: 100vh;
+  .home__nav{
+    background: $color-hv;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
-    .resgister__container{
-      width: 350px;
-      overflow: hidden;
-      background: $color-bc;
-      border-radius: $border-r;
-      
-      
-  
-      .register__logo{
-        width: 30px;
-        height: 30px;
-      }
-      h2{
-        font-size: $text-st;
-        font-family: $text-sf;
-        color: $color-tl;
-        text-align: center;
-      }
-      .form__group{
-        width: 80%;
-        margin: auto;
-        display: flex;
-        gap: 5px;
-        flex-direction: column;
-  
-        label{
-          font-size: $text-st;
-          font-family: $text-sf;
-          padding: 5px;
-          color: $color-st;
-          display: flex;
-          align-items: center;
-  
-          img{
-            margin: 10px;
-            filter: invert(100%);
-          }
-        }
-  
-       
-  
-      input{
-        width: 100%;
-        font-size: $text-st;
-        height: 40px;
-        padding: 15px;
-        font-family: $text-sf;
-        background: $color-ip;
-        outline: none;
-        border: none;
-        color: $color-ds;
-        border-radius: $border-r;
-  
-      }
-        
-      }
-      button{
-        margin:20px  auto;
-        display: block;
-        width: 180px;
-        height: 40px;
-        text-align: center;
-        border: none;
-        outline: none;
-        border-radius: $border-r;
-        background: $color-hv;
-        color: $color-tl;
-      }
-      span{
-        text-align: center;
-        display: block;
-        font-family: $text-sf;
-        font-size: $text-sp;
-        color: $color-tl;
-        margin: 20px;
-        
-      }
-      p{
-        color: $color-sp;
-        font-size: $text-sp;
-        padding: 20px;
-        text-align: center;
-        font-family: $text-sf;
-        a{
-          color: $color-st;
-        }
-      }
+    width: 5%;
+
+    .home__logo{
+      background: $color-lg;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-  
-  
-    
-  }
-
-  .home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .home__container{
-      width: 60%;
-      height: 90vh;
-      background: $color-bc;
-      overflow: hidden;
-      border-radius: $border-r;
+    .home__nav__v{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
       position: relative;
+      gap: 10px;
 
-      .home__container__left{
-        width: 100%;
-        height: 100%;
-        padding: 10px;
-        
+      button{
+        border-left: 5px solid $color-bb;
+        border-top: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        height: 40px;
+        background: transparent;
+        border-radius: 0px 0px 0px 0px;
 
-        .home__conten{
-          width: 100%;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          gap: 20px;
-
-          .home__info_nav{
-
-            .home__info__body{
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-
-              .home__info__body__text{
-
-              }
-              .home__info__body__img{
-                width: 60px;
-                height: 60px;
-                border-radius: 50%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
-                margin: 10px ;
-
-                img{
-                  width: 100%;
-                  height: 100%;
-                  border-radius: 50%;
-                  object-fit: cover;
-                }
-
-              }
-            }
-
-            .home__info__input{
-              width: 100%;
-              height: 35px;
-              overflow: hidden;
-              padding: 0px;
-              border-radius: $border-r;
-              display: flex;
-              align-items: center;
-              background: $color-ip;
-
-              .home__info__input__text{
-                width: 100%;
-                display: flex;
-                position: relative;
-
-                input{
-                  width: 100%;
-                  height: 35px;
-                  border: none;
-                  outline: none;
-                  padding: 20px;
-                  background: transparent;
-                  color: $color-ds;
-                }
-
-                img {
-                  width: 18px;
-                  cursor: pointer;
-                  object-fit: contain;
-                  position: absolute;
-                  right: 30px;
-                  top: 30%;
-                }
-                
-              }
-
-              
-              
-            }
-
-
-          }
-
-          .home__body__container{
-            width: 100%;
-            padding: 10px;
-
-            .home__body__container__cur{
-              width: 100%;
-              height: 200px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              flex-flow: wrap;
-              gap: 20px;
-              overflow-y: scroll;
-              
-              
-
-              .hom__cur{
-                position: relative;
-                width: 260px;
-                max-width: 260px;
-                height: 150px;
-                overflow: hidden;
-                border-radius: $border-r;
-                padding: 10px;
-                background: $color-cd;
-
-                .home__icon{
-                  position: absolute;
-                  display: flex;
-                  gap: 10px;
-                  right: 20px;
-                  bottom: 15px;
-
-                  img{
-                    cursor: pointer;
-                  }
-
-                }
-              }
-
-            }
-          }
-        }
       }
-
-      .home__container__right{
-        width: 100%;
-        height: 80px;
-        background: $color-cd;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        border-radius: $border-r;
+      .home__buton_btn{
+        width: 100px;
+        height: 120px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
+        position: absolute;
+        bottom: 0px;
 
         button{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 5px;
-          width: 50px;
-          height: 50px;
-          border-radius: 50%;
-          outline: none;
-          border: none;
-          background: transparent;
-          cursor: pointer;
-
-          &:hover{
-            background: $color-hv;
-          }
-
-
-
-          img{
-            width: 24px;
-            height: 24px;
-            object-fit: cover;
-          }
+          width: 100%;
         }
+
+        
       }
- 
+      
     }
-    
+  
   }
+
+  //container home
+  .home__container{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .home__nav_h{
+      width: 100%;
+      height: 80px;
+      background: $color-hv;
+
+    }
+  }
+
 }
