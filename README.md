@@ -3,7 +3,7 @@
  [https://rafael-roja-r.github.io/chat/](https://rafael-roja-r.github.io/chat/)
  
  # img
- <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" height="30" width="40" /></a>
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" height="300" width="400" /></a>
 
 ### Description
 
