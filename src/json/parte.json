@@ -2,80 +2,489 @@
     {
         "name": "Estructuras",
         "description": {
-            "name1": "closet",
-            "name2": "case",
-            "name3": "frontal",
+            "name1": "Case",
+            "descloset": [
+                {
+                    "id": "01",
+                    "name": "Bastidor vertical",
+                    "Tipo": "Closet"
+                },
+                {
+                    "id": "02",
+                    "name": "Bastidor horizontal",
+                    "Tipo": "Closet"
+                },
+                {
+                    "id": "03",
+                    "name": "Base",
+                    "Tipo": "Closet"
+                },
+                {
+                    "id": "04",
+                    "name": "Tapa",
+                    "Tipo": "Closet"
+                },
+                {
+                    "id": "05",
+                    "name": "Cargador",
+                    "Tipo": "Closet"
+                },
+                {
+                    "id": "06",
+                    "name": "Costado izquierdo",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "07",
+                    "name": "Costado dercho",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "08",
+                    "name": "Base",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "09",
+                    "name": "Tapa",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "10",
+                    "name": "Respaldo interno",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "11",
+                    "name": "Respaldo externo",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "12",
+                    "name": "Cenefa top",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "13",
+                    "name": "Cenefa frontal",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "14",
+                    "name": "Cenefa fijacion",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "15",
+                    "name": "Cenefa fijacion",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "16",
+                    "name": "Repisa fija",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "17",
+                    "name": "Repisa movil",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "18",
+                    "name": "Repisa estructural",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "19",
+                    "name": "Bloque",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "20",
+                    "name": "Bloque",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "21",
+                    "name": "Costado izquierdo visto",
+                    "Tipo": "case"
+                },
+                {
+                    "id": "22",
+                    "name": "Costado dercho visto",
+                    "Tipo": "case"
+                }
+            ],
             "name4": "zocalo",
-            "name5": "closet",
-            "name6": "canteo"
+            "deszocalo": [
+                {
+                    "id": "23",
+                    "name": "Zocalo delantero",
+                    "Tipo": "zocalo"
+                },
+                {
+                    "id": "24",
+                    "name": "Zocalo trasera",
+                    "Tipo": "zocalo"
+                },
+                {
+                    "id": "25",
+                    "name": "Zocalo laterales",
+                    "Tipo": "zocalo"
+                },
+                {
+                    "id": "26",
+                    "name": "Durminente",
+                    "Tipo": "zocalo"
+                }
+            ],
+            "name6": "canteo",
+            "descanteo": [
+                {
+                    "id": "27",
+                    "name": "adelante",
+                    "Tipo": "canteo"
+                },
+                {
+                    "id": "28",
+                    "name": "arriba",
+                    "Tipo": "canteo"
+                },
+                {
+                    "id": "29",
+                    "name": "atras",
+                    "Tipo": "canteo"
+                },
+                {
+                    "id": "30",
+                    "name": "abajo",
+                    "Tipo": "canteo"
+                },
+                {
+                    "id": "31",
+                    "name": "Delgado",
+                    "Tipo": "canteo"
+                }
+            ]
         }
     },
     {
         "name": "Cubierta",
-        "description": {
-            "name1": "forntal",
-            "name2": "izquierdo",
-            "name3": "derecho",
-            "name4": "atras",
-            "name5": "base",
-            "name6": "canteo"
-        }
+        "description": [
+            {
+                "id": "32",
+                "name": "Cenefa bastidor lateral ",
+                "Tipo": "cubierta"
+            },
+            {
+                "id": "33",
+                "name": "Cenefa bastidor atras ",
+                "Tipo": "cubierta"
+            },
+            {
+                "id": "34",
+                "name": "Cenefa bastidor adelante ",
+                "Tipo": "cubierta"
+            },
+            {
+                "id": "35",
+                "name": "Cenefa bastidor abajo ",
+                "Tipo": "cubierta"
+            }
+        ]
     },
     {
         "name": "Cajones externos",
-        "description": {
-            "name1": "forntal",
-            "name2": "izquierdo",
-            "name3": "derecho",
-            "name4": "atras",
-            "name5": "base",
-            "name6": "canteo"
-        }
+        "description": [
+            {
+                "id": "36",
+                "name": "Costado izquierdo",
+                "Tipo": "cajones externos"
+            },
+            {
+                "id": "37",
+                "name": "Costado derecho",
+                "Tipo": "cajones externos"
+            },
+            {
+                "id": "38",
+                "name": "Costado interno",
+                "Tipo": "cajones externos"
+            },
+            {
+                "id": "39",
+                "name": "Costado frontal",
+                "Tipo": "cajones externos"
+            }
+        ],
+        "name1": "canteo",
+        "descanteo": [
+            {
+                "id": "40",
+                "name": "adelante",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "41",
+                "name": "arriba",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "42",
+                "name": "atras",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "43",
+                "name": "abajo",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "44",
+                "name": "Delgado",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "45",
+                "name": "Grueso",
+                "Tipo": "canteo"
+            }
+        ]
     },
     {
         "name": "Cajones internos",
-        "description": {
-            "name1": "forntal",
-            "name2": "izquierdo",
-            "name3": "derecho",
-            "name4": "atras",
-            "name5": "base",
-            "name6": "canteo"
-        }
+        "description": [
+            {
+                "id": "36",
+                "name": "Costado izquierdo",
+                "Tipo": "cajones interno"
+            },
+            {
+                "id": "37",
+                "name": "Costado derecho",
+                "Tipo": "cajones interno"
+            },
+            {
+                "id": "38",
+                "name": "Costado interno",
+                "Tipo": "cajones interno"
+            },
+            {
+                "id": "39",
+                "name": "Costado frontal",
+                "Tipo": "cajones interno"
+            }
+        ],
+        "name1": "canteo",
+        "descanteo": [
+            {
+                "id": "40",
+                "name": "adelante",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "41",
+                "name": "arriba",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "42",
+                "name": "atras",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "43",
+                "name": "abajo",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "44",
+                "name": "Delgado",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "45",
+                "name": "Grueso",
+                "Tipo": "canteo"
+            }
+        ]
     },
     {
         "name": "Puertas",
-        "description": {
-            "name1": "lisas",
-            "name2": "mdf",
-            "name3": "vidrio"
-        }
+        "description": [
+            {
+                "id": "46",
+                "name": "Puerta lisa",
+                "Tipo": "puerta lisa"
+            },
+            {
+                "id": "47",
+                "name": "puerta mdf",
+                "Tipo": "Puerta mdf"
+            },
+            {
+                "id": "48",
+                "name": "Puerta viddrio",
+                "Tipo": "puerta viddrio"
+            },
+            {
+                "id": "49",
+                "name": "Parco izquierdo",
+                "Tipo": "marco puerta"
+            },
+            {
+                "id": "50",
+                "name": "Marco derecho",
+                "Tipo": "marco puerta"
+            },
+            {
+                "id": "51",
+                "name": "Marco base",
+                "Tipo": "marco puerta"
+            },
+            {
+                "id": "51",
+                "name": "Marco superior",
+                "Tipo": "marco puerta"
+            }
+        ],
+        "name1": "canteo",
+        "descanteo": [
+            {
+                "id": "52",
+                "name": "adelante",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "53",
+                "name": "arriba",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "54",
+                "name": "atras",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "55",
+                "name": "abajo",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "56",
+                "name": "Delgado",
+                "Tipo": "canteo"
+            },
+            {
+                "id": "57",
+                "name": "Grueso",
+                "Tipo": "canteo"
+            }
+        ]
     },
     {
-        "name": "Jalador",
-        "description": {
-            "name1": "closet",
-            "name2": "case"
-        }
+        "name": "Tirador",
+        "description": [
+            {
+                "id": "58",
+                "name": "Sin tirador",
+                "Tipo": "tirador"
+            },
+            {
+                "id": "59",
+                "name": "Tirador punto",
+                "Tipo": "tirador"
+            },
+            {
+                "id": "60",
+                "name": "Tirador asa",
+                "Tipo": "tirador"
+            },
+            {
+                "id": "61",
+                "name": "Tirador tallado",
+                "Tipo": "tirador"
+            },
+            {
+                "id": "61",
+                "name": "Tirador perfiles",
+                "Tipo": "tirador"
+            }
+        ]
     },
     {
         "name": "Bisagras",
-        "description": {
-            "name1": "closet"
-        }
+        "description": [
+            {
+                "id": "62",
+                "name": "Bisagras 110°",
+                "Tipo": "bisagra"
+            },
+            {
+                "id": "63",
+                "name": "Bisagras 95°",
+                "Tipo": "bisagra"
+            },
+            {
+                "id": "64",
+                "name": "Bisagras 165°",
+                "Tipo": "bisagra"
+            }
+        ]
+    },
+    {
+        "name": "Correderas",
+        "description": [
+            {
+                "id": "65",
+                "name": "Telescopicas",
+                "Tipo": "correderas"
+            },
+            {
+                "id": "66",
+                "name": "Telescopicas con freno",
+                "Tipo": "correderas"
+            },
+            {
+                "id": "67",
+                "name": "Tandebox",
+                "Tipo": "correderas"
+            }
+        ]
     },
     {
         "name": "Molduras",
-        "description": {
-            "name1": "closet",
-            "name2": "case"
-        }
+        "description": [
+            {
+                "id": "68",
+                "name": "Lineal",
+                "Tipo": "molduar"
+            },
+            {
+                "id": "69",
+                "name": "Corte 45",
+                "Tipo": "molduar"
+            },
+            {
+                "id": "70",
+                "name": "Circular",
+                "Tipo": "molduar"
+            }
+        ]
     },
     {
         "name": "Tubos de closet",
-        "description": {
-            "name1": "closet",
-            "name2": "case"
-        }
+        "description":[
+            {
+                "id": "71",
+                "name": "Circular",
+                "Tipo": "tubos de closet"
+            },
+            {
+                "id": "71",
+                "name": "Ovalado",
+                "Tipo": "tubos de closet"
+            }
+        ]
     }
 ]
