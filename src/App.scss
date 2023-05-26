@@ -236,10 +236,52 @@ $fonts_ps:'Poppins', sans-serif;
       
       .desing {
         width: 100%;
-        height: 100%;
-        background: #dbc99f;
+        height: 91vh;
+        display: flex;
+        flex-wrap: wrap;
+        animation: loopx .6s linear;
+
+        .desing__conten{
+          width: 60%;
+          height: 100%;
+          background: $color-bc;
+          animation: loopx .6s linear;
+
+          .desing__container__canvas{
+            width: 100%;
+            height: 50%;
+
+            .desing__canvas{
+              width: 100%;
+              height: 100%;
+              background: $color-bg;
+              animation: loopx .6s linear;
+            }
+          }
+          .desing__descrip__canvas{
+            width: 100%;
+            height: 50%;
+            overflow-y: scroll;
+            animation: loopx .6s linear;
+          }
+        }
         
-    
+        .desing__cotizar{
+          width: 40%;
+          height: 100%;
+          background: $color-hv;
+          animation: loopx 1s linear;
+        }
+        @keyframes loopx {
+          0%{
+            transform: translatey(-1%);
+            opacity: 0%;
+          }
+          100%{
+            transform: translatey(0%);
+            opacity: 100%;
+          }
+        }
       }
     }
   }

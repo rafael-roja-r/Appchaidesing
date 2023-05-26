@@ -5,6 +5,11 @@
             "name1": "Case",
             "descloset": [
                 {
+                    "id": "0",
+                    "name": "Parante",
+                    "Tipo": "case"
+                },
+                {
                     "id": "01",
                     "name": "Bastidor vertical",
                     "Tipo": "Closet"
@@ -481,7 +486,7 @@
                 "Tipo": "tubos de closet"
             },
             {
-                "id": "71",
+                "id": "72",
                 "name": "Ovalado",
                 "Tipo": "tubos de closet"
             }
