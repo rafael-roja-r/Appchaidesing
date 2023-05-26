@@ -1,5 +1,29 @@
 # Chaidesing app
 
+ [https://rafael-roja-r.github.io/chat/](https://rafael-roja-r.github.io/chat/)
+ 
+ # img
+ ### Home
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/home.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/home.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/home.jpg" height="300" width="400" /></a>
+ 
+  ### Team
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Team.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Team.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Team.jpg" height="300" width="400" /></a>
+ 
+  ### Warehouse
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Warehouse.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Warehouse.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Warehouse.jpg" height="300" width="400" /></a>
+ 
+  ### Desing
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Dising.jpg" height="300" width="400" /></a>
+ 
+   ### Report
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Reporte.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Reporte.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Reporte.jpg" height="300" width="400" /></a>
+ 
+   ### Materilize
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Materilize.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Materilize.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/Materilize.jpg" height="300" width="400" /></a>
+ 
+   ### Machine
+ <a href="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/machine.jpg" target="blank"><img align="center" src="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/machine.jpg" alt="https://github.com/rafael-roja-r/chat/blob/master/src/img/inf/machine.jpg" height="300" width="400" /></a>
+
 ### Description
 
 <p>
